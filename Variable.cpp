@@ -40,6 +40,9 @@ int main(){
     int div =num1/num2;
     cout<<"The Division is: "<<div<<endl;
 
+    int mod =num1%num2;
+    cout<<"The modulus is: "<<mod<<endl;
+
     bool res1=num1<num2;
     cout<<res1<<endl;
 
@@ -55,6 +58,14 @@ int main(){
     }
     else{
         cout<<"Grade Not A"<<endl;
+    }
+
+    int age=34;
+    if(age>50 || age<30){
+        cout<<"Perfect";
+    }
+    else{
+        cout<<"Not Perfect";
     }
 }
 
