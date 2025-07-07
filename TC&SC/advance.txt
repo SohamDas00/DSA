@@ -1,0 +1,32 @@
+for(int i=0;i<n;i++){
+
+}
+for(int j=0;j<m;j++){
+
+}
+=> TC-O(n+m) SC-O(1)
+
+for(int i=0;i<n;i++){
+    for(int j=0;j<n;j++){
+
+    }
+}
+=> TC-O(n^2) SC-O(1)
+
+for(int i=0;i<n;i++){
+    for(int j=n;j>i;j--){
+
+    }
+}
+=> TC-O(n^2) SC-O(1)
+
+function func(int arr,int n){
+    for(int i=0;i<n;i++){
+
+}
+}
+for(int i=0;i<n;i++){
+    function func(arr,n)
+}
+=> TC-O(n^2) SC-O(1)
+
