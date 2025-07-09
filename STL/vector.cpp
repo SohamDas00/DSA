@@ -20,4 +20,7 @@ int main(){
     for(auto k:vec2){
         cout<<k<<" ";
     }
+    cout<<endl;
+    cout<<vec.size()<<endl;
+    cout<<vec2.size();
 }
