@@ -1,5 +1,4 @@
-#include<iostream>
-#include<vector>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -9,6 +8,11 @@ int main(){
     cout<<vec[1]<<endl;
     for(auto i:vec){
         cout<<i<<" ";
+    }
+    cout<<endl;
+    sort(vec.begin(),vec.end(),greater<int>());//decending order
+    for(auto a:vec){
+        cout<<a<<" ";
     }
     cout<<endl;
     vector<int> vec2(5,100);//This store total 5 - 100.
