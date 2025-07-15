@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+int hashing[100];
 int main(){
     int size,arr[100];
     cout<<"Enter value: ";
@@ -9,10 +9,8 @@ int main(){
     for(int i=0;i<size;i++){
         cin>>arr[i];
     }
-
-    int hash[100]={0};
     for(int i=0;i<size;i++){
-        hash[arr[i]]+=1;
+        hashing[arr[i]]+=1;
     }
 
     cout<<"The no. of quary: ";
@@ -21,6 +19,6 @@ int main(){
     while(num2--){
         int number;
         cin>>number;
-        cout<<"Total is: "<<hash[number]<<endl;
+        cout<<"Total is: "<<hashing[number]<<endl;
     }
 }
