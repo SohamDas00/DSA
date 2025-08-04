@@ -22,3 +22,4 @@ int main(){
     }
     cout<<"The max sum is: "<<maxSubarray(vec);
 }
+//kadane's algorithum
